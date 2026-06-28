@@ -3,17 +3,20 @@ name: image-gen
 description: >-
   Generate or edit raster images (PNG/JPG/WebP) from a text description using the
   local OpenAI Codex CLI's built-in image generator — photos, illustrations, icons,
-  logos, hero/OG/social images, favicons, textures, sprites, UI mockups, product
-  shots, and transparent-background cutouts, plus edits/variations of an existing
-  image (recolor, restyle, background removal, object swap). Use this WHENEVER the
-  user wants to create, generate, make, draw, render, design, paint, or produce an
-  image, picture, icon, logo, illustration, graphic, visual, asset, hero image,
-  OG/social card, favicon, sprite, texture, or mockup — and whenever they want to
-  edit, restyle, recolor, upscale-the-look-of, or remove the background from an
-  existing image. Trigger even when the user does not say "Codex", does not name a
-  file format, or just describes the picture they want ("I need a header image of
-  …"). Do NOT use for vector/SVG icon systems meant to be authored as code, for
-  charts/graphs built from data, or for diagrams better expressed as Mermaid/SVG/HTML.
+  logos, mascots/characters, hero/OG/social images, favicons, textures, sprites, UI
+  mockups, product shots, and transparent-background cutouts, plus edits to an
+  existing image (recolor, restyle, add/remove/replace an element, change the
+  lighting, remove the background, make variations). Use this WHENEVER the user wants
+  to create, generate, make, draw, render, design, paint, or produce an image,
+  picture, icon, logo, illustration, graphic, visual, asset, hero image, OG/social
+  card, favicon, sprite, texture, mascot, or mockup — even when they don't say
+  "Codex", don't name a file format, or just describe the picture they want ("I need
+  a header image of …"). Do NOT use for: vector/SVG icon systems or logos meant to be
+  authored as code; charts/graphs built from data; diagrams or flowcharts better
+  expressed as Mermaid/SVG/HTML; or purely mechanical operations on an existing image
+  file — resizing, super-resolution "upscaling", compression/optimization, or format
+  conversion such as PNG→ICO — because this skill creates and edits image content, it
+  does not transform files.
 ---
 
 # image-gen

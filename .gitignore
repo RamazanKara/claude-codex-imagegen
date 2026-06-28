@@ -1,0 +1,13 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+*.swp
+.idea/
+.vscode/
+
+# Transient working output (the engine writes to the system temp dir, not the repo)
+*.tmp
+tmp/

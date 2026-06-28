@@ -1,0 +1,8 @@
+# Normalize line endings: LF for all text (keeps generate.sh runnable on macOS/Linux).
+* text=auto eol=lf
+
+# Binary assets
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.webp binary
